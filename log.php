@@ -1,6 +1,6 @@
 <?php
 
-$dosya = fopen("sadeceolulergorur.php","a+");
+$dosya = fopen("sadeceolulergorur.txt","a+"); //kanka burayi .php yapsan daha iyi olur sadece sen görürsün
 
 $IP_Adresi = $_SERVER["REMOTE_ADDR"]; //Giren kisinin ip adresini verir
 $Tarayici = $_SERVER["HTTP_USER_AGENT"]; //Giren kisinin tarayıcısını verir
